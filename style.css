@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "Blinker", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* Imagen en escala de grises por defecto */
+.img-grayscale {
+    filter: grayscale(100%);
+    transition: filter 0.6s ease;
+    pointer-events: none;
+    display: none;
+}
+
+
+/* Cuando se hace hover en la card, la imagen se pone a color */
+/*
+.card-hover:hover .img-grayscale {
+    filter: grayscale(0%);
+}
+*/
